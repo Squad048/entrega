@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>Rural 5G</title>
+    <link rel="stylesheet" href="novomenu.css"> 
+       <!-- Required meta tags -->
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+       <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+       <!-- Bootstrap CSS -->
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+       <link rel="stylesheet" href="./assets/css/style.css">
+   
+       
+  </head>
+<body>
+    <header>
+        <!--Sessão Menu Principal-->
+        <div id="menu-principal">
+        <h1>
+            <nav class="dp-menu">         
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Colaboradores</a>
+                    <ul>
+                        <li><a href="voluntarios.html">Voluntários</a></li>
+                        <li><a href="Doação.html">Doação</a></li>
+                        <li><a href="cadastrarescola.html">Cadastrar minha escola</a></li>
+                        
+                    </ul>
+                </li>
+                <li><a href="sobre.html">O projeto</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="./login.html"  id="botao-login" class="btn btn-success sistema">Login</a></li> 
+            </ul>
+            </nav>  
+            </h1>
+            </nav> 
+        </div>
+    
+    <!--Fim Menu Principal-->
+    </header>
+    <body>
+  
+
+        <form method="post" id="fContato" action="mailto:squad048hotmail.com"> 
+            <fieldset id="escola"> <legend><h1>Cadastro da Escola</h1></legend> 
+                <p><label for="cNome">Nome:</label>   <input type="text" name="tNome" id="cNome" size="40" maxlength="40" placeholder="Nome da Escola"/></p>
+                <p> Email: <input type="email" name="tMail" id="cNome" size="40" maxlength="40" placeholder="Digite seu email"/></p>
+                <fieldset id="tipo"> 
+                    <label ><input id="cEsti" type="radio" name="tEsti" value="Estadual" checked> Municipal</label><br>
+                    <label ><input id="cMuni" type="radio" name="tMuni" value="Municipal"> Municipal</label>
+                </fieldset>
+                <fieldset id="CNPJ"> <legend> CNPJ:</legend>   
+                    <p><label for="cCnpj">CNPJ:</label>   <input type="text" name="tCnpj" id="cCnpj" size="18" maxlength="30" placeholder="XX.XXX.XXX/0001-XX"/> </p>
+                </fieldset>
+                
+        
+            <fieldset id="Endereco"> <legend>Endereço da Escola</legend>
+                <p><label for="cRua">Logradouro:</label><input type="text" name="tRua" id="cRua" size="40" maxlength="80" placeholder="Rua, Av., Travessa"></p>
+                <p><label id="cNum">Número:<input type="number" name="tNum" id="cNum" min="0" max="99999"> </label></p>
+                <p><label for="cCit">Cidade:</label><input type="text" name="tCit" id="cCit" size="40" maxlength="80"></p>
+                <p><label for="cEst">Estado:</label><input type="text" name="tEst" id="cEst" size="40" maxlength="80"></p>
+                <p><label for="cCEP">CEP:</label><input type="text" name="tCep" id="cCep" size="8" maxlength="8" placeholder="XXXX-XXX"></p>
+                    
+            </fieldset> 
+           
+            <fieldset id="Contato do Cliente"> <legend>Contato da Escola</legend>
+        
+                <p>Telefone: <input type="tel" name="tTel" id="cTel" size="18" maxlength="18" placeholder="(DDD) + número"/><br><br>               
+                <input type="submit" value="Enviar"/>
+            </fieldset>
+        
+          
+  
+        </form>
+        
+    <body>
+
+
+
+    <footer>
+        <div class="rodape">
+          <p> ©  SQUAD 48 - RECODE PRO, 2022.</p>
+        </div>
+      </footer>  
+  </div>
+    
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
